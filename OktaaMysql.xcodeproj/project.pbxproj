@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B63DBE2C9CA48E00C00538 /* OktaaMysqlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */; };
+		04B63DC02C9CA48E00C00538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DBF2C9CA48E00C00538 /* ContentView.swift */; };
+		04B63DC22C9CA49000C00538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B63DC12C9CA49000C00538 /* Assets.xcassets */; };
+		04B63DC52C9CA49000C00538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B63DC42C9CA49000C00538 /* Preview Assets.xcassets */; };
+		04B63DC72C9CA49000C00538 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DC62C9CA49000C00538 /* Persistence.swift */; };
+		04B63DCA2C9CA49000C00538 /* OktaaMysql.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DC82C9CA49000C00538 /* OktaaMysql.xcdatamodeld */; };
+		04B63DD52C9CA49000C00538 /* OktaaMysqlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DD42C9CA49000C00538 /* OktaaMysqlTests.swift */; };
+		04B63DDF2C9CA49000C00538 /* OktaaMysqlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DDE2C9CA49000C00538 /* OktaaMysqlUITests.swift */; };
+		04B63DE12C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B63DD12C9CA49000C00538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B63DB22C9CA48E00C00538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B63DB92C9CA48E00C00538;
+			remoteInfo = OktaaMysql;
+		};
+		04B63DDB2C9CA49000C00538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B63DB22C9CA48E00C00538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B63DB92C9CA48E00C00538;
+			remoteInfo = OktaaMysql;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B63DBA2C9CA48E00C00538 /* OktaaMysql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OktaaMysql.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlApp.swift; sourceTree = "<group>"; };
+		04B63DBF2C9CA48E00C00538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04B63DC12C9CA49000C00538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B63DC42C9CA49000C00538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04B63DC62C9CA49000C00538 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		04B63DC92C9CA49000C00538 /* OktaaMysql.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OktaaMysql.xcdatamodel; sourceTree = "<group>"; };
+		04B63DCB2C9CA49000C00538 /* OktaaMysql.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OktaaMysql.entitlements; sourceTree = "<group>"; };
+		04B63DD02C9CA49000C00538 /* OktaaMysqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaaMysqlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B63DD42C9CA49000C00538 /* OktaaMysqlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlTests.swift; sourceTree = "<group>"; };
+		04B63DDA2C9CA49000C00538 /* OktaaMysqlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaaMysqlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B63DDE2C9CA49000C00538 /* OktaaMysqlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlUITests.swift; sourceTree = "<group>"; };
+		04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B63DB72C9CA48E00C00538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DCD2C9CA49000C00538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DD72C9CA49000C00538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B63DB12C9CA48E00C00538 = {
+			isa = PBXGroup;
+			children = (
+				04B63DBC2C9CA48E00C00538 /* OktaaMysql */,
+				04B63DD32C9CA49000C00538 /* OktaaMysqlTests */,
+				04B63DDD2C9CA49000C00538 /* OktaaMysqlUITests */,
+				04B63DBB2C9CA48E00C00538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B63DBB2C9CA48E00C00538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DBA2C9CA48E00C00538 /* OktaaMysql.app */,
+				04B63DD02C9CA49000C00538 /* OktaaMysqlTests.xctest */,
+				04B63DDA2C9CA49000C00538 /* OktaaMysqlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B63DBC2C9CA48E00C00538 /* OktaaMysql */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */,
+				04B63DBF2C9CA48E00C00538 /* ContentView.swift */,
+				04B63DC12C9CA49000C00538 /* Assets.xcassets */,
+				04B63DC62C9CA49000C00538 /* Persistence.swift */,
+				04B63DCB2C9CA49000C00538 /* OktaaMysql.entitlements */,
+				04B63DC82C9CA49000C00538 /* OktaaMysql.xcdatamodeld */,
+				04B63DC32C9CA49000C00538 /* Preview Content */,
+			);
+			path = OktaaMysql;
+			sourceTree = "<group>";
+		};
+		04B63DC32C9CA49000C00538 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DC42C9CA49000C00538 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04B63DD32C9CA49000C00538 /* OktaaMysqlTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DD42C9CA49000C00538 /* OktaaMysqlTests.swift */,
+			);
+			path = OktaaMysqlTests;
+			sourceTree = "<group>";
+		};
+		04B63DDD2C9CA49000C00538 /* OktaaMysqlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DDE2C9CA49000C00538 /* OktaaMysqlUITests.swift */,
+				04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */,
+			);
+			path = OktaaMysqlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B63DB92C9CA48E00C00538 /* OktaaMysql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B63DE42C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysql" */;
+			buildPhases = (
+				04B63DB62C9CA48E00C00538 /* Sources */,
+				04B63DB72C9CA48E00C00538 /* Frameworks */,
+				04B63DB82C9CA48E00C00538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OktaaMysql;
+			productName = OktaaMysql;
+			productReference = 04B63DBA2C9CA48E00C00538 /* OktaaMysql.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B63DCF2C9CA49000C00538 /* OktaaMysqlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B63DE72C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysqlTests" */;
+			buildPhases = (
+				04B63DCC2C9CA49000C00538 /* Sources */,
+				04B63DCD2C9CA49000C00538 /* Frameworks */,
+				04B63DCE2C9CA49000C00538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B63DD22C9CA49000C00538 /* PBXTargetDependency */,
+			);
+			name = OktaaMysqlTests;
+			productName = OktaaMysqlTests;
+			productReference = 04B63DD02C9CA49000C00538 /* OktaaMysqlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B63DD92C9CA49000C00538 /* OktaaMysqlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B63DEA2C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysqlUITests" */;
+			buildPhases = (
+				04B63DD62C9CA49000C00538 /* Sources */,
+				04B63DD72C9CA49000C00538 /* Frameworks */,
+				04B63DD82C9CA49000C00538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B63DDC2C9CA49000C00538 /* PBXTargetDependency */,
+			);
+			name = OktaaMysqlUITests;
+			productName = OktaaMysqlUITests;
+			productReference = 04B63DDA2C9CA49000C00538 /* OktaaMysqlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B63DB22C9CA48E00C00538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					04B63DB92C9CA48E00C00538 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					04B63DCF2C9CA49000C00538 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 04B63DB92C9CA48E00C00538;
+					};
+					04B63DD92C9CA49000C00538 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 04B63DB92C9CA48E00C00538;
+					};
+				};
+			};
+			buildConfigurationList = 04B63DB52C9CA48E00C00538 /* Build configuration list for PBXProject "OktaaMysql" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B63DB12C9CA48E00C00538;
+			productRefGroup = 04B63DBB2C9CA48E00C00538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B63DB92C9CA48E00C00538 /* OktaaMysql */,
+				04B63DCF2C9CA49000C00538 /* OktaaMysqlTests */,
+				04B63DD92C9CA49000C00538 /* OktaaMysqlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B63DB82C9CA48E00C00538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B63DC52C9CA49000C00538 /* Preview Assets.xcassets in Resources */,
+				04B63DC22C9CA49000C00538 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DCE2C9CA49000C00538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DD82C9CA49000C00538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B63DB62C9CA48E00C00538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B63DC72C9CA49000C00538 /* Persistence.swift in Sources */,
+				04B63DCA2C9CA49000C00538 /* OktaaMysql.xcdatamodeld in Sources */,
+				04B63DC02C9CA48E00C00538 /* ContentView.swift in Sources */,
+				04B63DBE2C9CA48E00C00538 /* OktaaMysqlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DCC2C9CA49000C00538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B63DD52C9CA49000C00538 /* OktaaMysqlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B63DD62C9CA49000C00538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B63DE12C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift in Sources */,
+				04B63DDF2C9CA49000C00538 /* OktaaMysqlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B63DD22C9CA49000C00538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B63DB92C9CA48E00C00538 /* OktaaMysql */;
+			targetProxy = 04B63DD12C9CA49000C00538 /* PBXContainerItemProxy */;
+		};
+		04B63DDC2C9CA49000C00538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B63DB92C9CA48E00C00538 /* OktaaMysql */;
+			targetProxy = 04B63DDB2C9CA49000C00538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B63DE22C9CA49000C00538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B63DE32C9CA49000C00538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04B63DE52C9CA49000C00538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OktaaMysql/OktaaMysql.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OktaaMysql/Preview Content\"";
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04B63DE62C9CA49000C00538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OktaaMysql/OktaaMysql.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OktaaMysql/Preview Content\"";
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04B63DE82C9CA49000C00538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysqlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OktaaMysql.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OktaaMysql";
+			};
+			name = Debug;
+		};
+		04B63DE92C9CA49000C00538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysqlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OktaaMysql.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OktaaMysql";
+			};
+			name = Release;
+		};
+		04B63DEB2C9CA49000C00538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysqlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OktaaMysql;
+			};
+			name = Debug;
+		};
+		04B63DEC2C9CA49000C00538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6D34MJKTR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oktaax.OktaaMysqlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OktaaMysql;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B63DB52C9CA48E00C00538 /* Build configuration list for PBXProject "OktaaMysql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B63DE22C9CA49000C00538 /* Debug */,
+				04B63DE32C9CA49000C00538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B63DE42C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B63DE52C9CA49000C00538 /* Debug */,
+				04B63DE62C9CA49000C00538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B63DE72C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysqlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B63DE82C9CA49000C00538 /* Debug */,
+				04B63DE92C9CA49000C00538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B63DEA2C9CA49000C00538 /* Build configuration list for PBXNativeTarget "OktaaMysqlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B63DEB2C9CA49000C00538 /* Debug */,
+				04B63DEC2C9CA49000C00538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04B63DC82C9CA49000C00538 /* OktaaMysql.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04B63DC92C9CA49000C00538 /* OktaaMysql.xcdatamodel */,
+			);
+			currentVersion = 04B63DC92C9CA49000C00538 /* OktaaMysql.xcdatamodel */;
+			path = OktaaMysql.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04B63DB22C9CA48E00C00538 /* Project object */;
+}
