@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0454FF132C9D687B00CFDE1B /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FF122C9D687B00CFDE1B /* SideBar.swift */; };
+		0454FF172C9D6BBA00CFDE1B /* ServicesCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FF162C9D6BBA00CFDE1B /* ServicesCommand.swift */; };
+		0454FF1B2C9D7FDC00CFDE1B /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FF1A2C9D7FDC00CFDE1B /* LogService.swift */; };
+		0454FF1D2C9D80FE00CFDE1B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454FF1C2C9D80FE00CFDE1B /* Log.swift */; };
 		04B63DBE2C9CA48E00C00538 /* OktaaMysqlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */; };
 		04B63DC02C9CA48E00C00538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DBF2C9CA48E00C00538 /* ContentView.swift */; };
 		04B63DC22C9CA49000C00538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B63DC12C9CA49000C00538 /* Assets.xcassets */; };
@@ -16,6 +20,8 @@
 		04B63DD52C9CA49000C00538 /* OktaaMysqlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DD42C9CA49000C00538 /* OktaaMysqlTests.swift */; };
 		04B63DDF2C9CA49000C00538 /* OktaaMysqlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DDE2C9CA49000C00538 /* OktaaMysqlUITests.swift */; };
 		04B63DE12C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */; };
+		04B63DF32C9CA5A000C00538 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DF22C9CA5A000C00538 /* Home.swift */; };
+		04B63DF52C9CA8F900C00538 /* BlurUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B63DF42C9CA8F900C00538 /* BlurUi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0454FF122C9D687B00CFDE1B /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		0454FF162C9D6BBA00CFDE1B /* ServicesCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCommand.swift; sourceTree = "<group>"; };
+		0454FF1A2C9D7FDC00CFDE1B /* LogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		0454FF1C2C9D80FE00CFDE1B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		04B63DBA2C9CA48E00C00538 /* OktaaMysql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OktaaMysql.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlApp.swift; sourceTree = "<group>"; };
 		04B63DBF2C9CA48E00C00538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		04B63DDA2C9CA49000C00538 /* OktaaMysqlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OktaaMysqlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B63DDE2C9CA49000C00538 /* OktaaMysqlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlUITests.swift; sourceTree = "<group>"; };
 		04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OktaaMysqlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04B63DF22C9CA5A000C00538 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		04B63DF42C9CA8F900C00538 /* BlurUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurUi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0454FF152C9D6B8A00CFDE1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0454FF162C9D6BBA00CFDE1B /* ServicesCommand.swift */,
+				0454FF1A2C9D7FDC00CFDE1B /* LogService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		04B63DB12C9CA48E00C00538 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +120,10 @@
 		04B63DBC2C9CA48E00C00538 /* OktaaMysql */ = {
 			isa = PBXGroup;
 			children = (
+				0454FF152C9D6B8A00CFDE1B /* Services */,
 				04B63DBD2C9CA48E00C00538 /* OktaaMysqlApp.swift */,
 				04B63DBF2C9CA48E00C00538 /* ContentView.swift */,
+				04B63DF12C9CA57500C00538 /* Views */,
 				04B63DC12C9CA49000C00538 /* Assets.xcassets */,
 				04B63DC62C9CA49000C00538 /* Persistence.swift */,
 				04B63DCB2C9CA49000C00538 /* OktaaMysql.entitlements */,
@@ -133,6 +156,17 @@
 				04B63DE02C9CA49000C00538 /* OktaaMysqlUITestsLaunchTests.swift */,
 			);
 			path = OktaaMysqlUITests;
+			sourceTree = "<group>";
+		};
+		04B63DF12C9CA57500C00538 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B63DF22C9CA5A000C00538 /* Home.swift */,
+				04B63DF42C9CA8F900C00538 /* BlurUi.swift */,
+				0454FF122C9D687B00CFDE1B /* SideBar.swift */,
+				0454FF1C2C9D80FE00CFDE1B /* Log.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +301,13 @@
 			files = (
 				04B63DC72C9CA49000C00538 /* Persistence.swift in Sources */,
 				04B63DCA2C9CA49000C00538 /* OktaaMysql.xcdatamodeld in Sources */,
+				0454FF1D2C9D80FE00CFDE1B /* Log.swift in Sources */,
+				0454FF132C9D687B00CFDE1B /* SideBar.swift in Sources */,
+				0454FF172C9D6BBA00CFDE1B /* ServicesCommand.swift in Sources */,
+				0454FF1B2C9D7FDC00CFDE1B /* LogService.swift in Sources */,
+				04B63DF32C9CA5A000C00538 /* Home.swift in Sources */,
 				04B63DC02C9CA48E00C00538 /* ContentView.swift in Sources */,
+				04B63DF52C9CA8F900C00538 /* BlurUi.swift in Sources */,
 				04B63DBE2C9CA48E00C00538 /* OktaaMysqlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +477,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OktaMysql;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +506,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OktaMysql;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

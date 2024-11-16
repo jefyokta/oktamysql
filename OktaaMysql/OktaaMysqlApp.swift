@@ -13,8 +13,34 @@ struct OktaaMysqlApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ZStack {
+                CustomWindow()
+               Home()
+            }
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
+        .windowToolbarStyle(UnifiedWindowToolbarStyle(showsTitle: false))
+
+    
+    }
+}
+struct CustomWindow: NSViewRepresentable {
+    func makeNSView(context: Context) -> NSVisualEffectView {
+        let visualEffectView = NSVisualEffectView()
+        visualEffectView.blendingMode = .behindWindow
+        visualEffectView.material = .sidebar
+        visualEffectView.state = .active
+        
+        if let window = NSApplication.shared.windows.first {
+            window.titlebarAppearsTransparent = true
+            window.titleVisibility = .hidden
+            window.isOpaque = false
+        }
+
+        return visualEffectView
+    }
+
+    func updateNSView(_ nsView: NSVisualEffectView, context: Context) {
+        // Tidak perlu memperbarui
     }
 }
